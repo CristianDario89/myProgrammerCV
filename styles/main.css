@@ -2895,6 +2895,7 @@ p {
 
 .title {
   font-weight: 700;
+  
 }
 
 .title.title-up {
@@ -6753,6 +6754,7 @@ Created using IcoMoon - icomoon.io
   .image-container.image-left {
     margin-right: -100px;
   }
+   
 }
 
 @media screen and (max-width: 768px) {
