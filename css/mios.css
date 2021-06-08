@@ -43,6 +43,67 @@
     position: relative;
   }
 
+  /*--------8-6-021---------*/
+  
+.btnpro {
+  /* reset */
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  /* styles */
+  position: relative;
+  background:  linear-gradient(to right,  #D6BDDD
+,#B7B4DB,#ABCADA,#B8D8BC,#D8D8BA,#DDBDC0);
+  background-size: 300%;
+  padding: 2px;
+  color: black;
+  text-transform:uppercase;
+  border-radius: 30px;
+  font-size:0.7rem;
+  transition: .3s;
+  animation: bruh 16s linear infinite;
+ 
+}
+
+@keyframes bruh {
+   0% {
+       background-position: 0 50%;
+   }
+
+   50% {
+       background-position: 100% 50%;
+   }
+
+   100% {
+       background-position: 0 50%;
+   }
+}
+
+.btnpro a {
+   
+  margin:  1px auto;
+  text-decoration: none;
+  color: lighten(#222, 10%);
+  font-family: "Source Code Pro";
+  transition: .3s;
+
+  
+}
+
+.btnpro a:hover {
+  color: black;font-weight: 600;
+}
+
+.miname{
+  font-size: 16px;
+}
+.self{
+  align-self: center;
+}
+
+.specialskills{transform: scale(0.9)}
+.specialskills2{transform: scale(0.8)}
+/*--------------------------------------------*/
   @media screen and (max-width: 992px) {
     .wrapquotes{
         display: flex;
@@ -51,5 +112,8 @@
  
 .quote-box{
    display: none;
+}
+.btnpro{
+  margin: auto;
 }
   }
