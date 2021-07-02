@@ -2920,7 +2920,7 @@ p {
 
 .category {
   text-transform: uppercase;
-  font-weight: 700;
+   font-family: 'Times New Roman', Times, serif;
   color: #9A9A9A;
 }
 
@@ -3002,7 +3002,8 @@ body {
   background: #FFFFFF;
 }
 
-.moverse{padding-right: 35px;}
+.moverse{margin-right: 20px; }
+.correte{margin-left: 23%;}
 /* Animations */
 .nav-pills .nav-link,
 .nav-item .nav-link,
@@ -6781,7 +6782,6 @@ Created using IcoMoon - icomoon.io
     margin-bottom: 30px;
   }
    
-  .moverse{padding-right: 15px;}
 }
 
 @media screen and (max-width: 576px) {
