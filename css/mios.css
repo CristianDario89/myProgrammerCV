@@ -103,6 +103,23 @@
 
 .specialskills{transform: scale(0.9)}
 .specialskills2{transform: scale(0.8)}
+
+/*---------------*/
+.wrappreguntas{
+  display:flex; flex-wrap: wrap;
+justify-content:space-around;}
+
+.group{
+text-align: center;
+margin-top: 15px;
+}
+
+.pmodal{
+  font-weight: 600;
+}
+.ulmodal{text-align: left;}
+
+.nav-item{border-right: 2px solid chartreuse;}
 /*--------------------------------------------*/
   @media screen and (max-width: 992px) {
     .wrapquotes{

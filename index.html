@@ -18,15 +18,17 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
     <link href="css/mios.css" rel="stylesheet">
+    <link href="css/creativa-popup.css" rel="stylesheet">
     
-    
+    <script src="js/creativa-popup.js"></script>
     
        <!-- Firestore -->
     <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
-  </head>
-  <body id="top">
-    <header>
+</head>
+<body id="top">
+
+<header>
       <div class="profile-page sidebar-collapse">
         <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
           <div class="container">
@@ -39,13 +41,19 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Habilidades</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portafolio</a></li>
                  
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#sobremi">Te hablo más de mi?</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#sobremi2">Como desarrallo mis proyectos?</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#sobremi3">Mis tres mejores tecnologías?</a></li>
+               
+                
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contacto</a></li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
-    </header>
+</header>
+
 <div class="page-content">
 <div>
     <div class="profile-page">
@@ -74,6 +82,7 @@
         </div>
       </div>
     </div>
+  
     <div class="section" id="about">
       <div class="container">
         <div class="card" data-aos="fade-up" data-aos-offset="10">
@@ -115,7 +124,6 @@
       </div>
     </div>
 
- 
 <!--Skills Skills Skills Skills Skills Skills Skills Skills Skills-->     
 <!--Skills Skills Skills Skills Skills Skills Skills Skills Skills-->  
 <!--Skills Skills Skills Skills Skills Skills Skills Skills Skills-->    
@@ -336,7 +344,6 @@
     </div>
 <!--FIN FIN FIN Skills FIN FIN FIN Skills-->    
 
- 
 <!--Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio-->     
 <!--Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio-->  
 <!--Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio-->     
@@ -703,6 +710,22 @@
       </div>
     </div>
 
+
+    <div class="wrappreguntas" >
+      <div class="group"  id="sobremi">
+          <h3>Quieres saber mas de mis skills?</h3>
+          <button onclick="popup8()">saber más</button>
+          
+      </div>
+    
+      
+      <div class="group">
+        <h3>Cómo llevo a cabo un proyecto?</h3>
+        <button onclick="popup1()">saber más</button>
+      </div>
+  
+    </div>
+  
     <!--
 
     <div class="section" id="reference">
@@ -861,12 +884,8 @@
 
 </div>
 </div>
-    <footer class="footer"><!--    <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>-->
-  
-      
-   <!-- <div class="text-center text-muted">
-        <p>&copy; CV 2021. All rights reserved.</p>
-      </div>-->  
+
+<footer class="footer"> 
       <div class="wrapquotes">
         <div class="quote-box">
           <div class="quote">
@@ -894,14 +913,46 @@
           </div>
         </div>
       </div>
-    </footer>
+</footer>
     
     <script>
 function direccion(){
 location.href='https://cristiandario89.github.io/lamellialmacen/';
 }
 </script>
-    
+<script>   
+function popup1() {
+  popup('Title', 'This is the text of the popup.');
+}
+
+
+function popup8() {
+        popup('<p>En 3 años de estudios secundarios aprendí:</p>', 
+          '<ul class="ulmodal"><li>Algoritmos y estructuras de datos</li>'+
+            '<li>lenguajes de programación como java y c++</li>'+
+            '<li>hacer consultas de bases de datos usando sql </li>'+
+            '</ul>'+
+            '<p class="pmodal">Años después vuelvo a estudiar por mi cuenta. Inicialmente me vuelvo bueno en:</p>'+
+          '<ul class="ulmodal"><li> html css y js.</li>'+
+            '<li>Comencé con jquery básico, DOM y otras cosas en las etapas iniciales.</li>'+
+            '<li>Utilizo Media Queries para diseño responsivo.</li>'+
+            '<li>Me llevé bien con estilos y diseños predefinidos.</li>'+
+            '<li> Mis plataformas empiezan a interactuar con clientes y usuarios.</li>'+
+            '</ul>'+
+            '<p class="pmodal">He estado trabajando en sitios web monolíticos y SPA durante cinco años</p>'+
+          '<ul class="ulmodal"><li>Puedo programar y desarrollar softwares, webapps y sitios web SPA.</li>'+
+            '<li>Mis apps consumen datos de manera local o remota</li>'+
+            '<li>Diseño servidores con rutas programadas que responden a las peticiones de usuarios.</li>'+
+            '<li>Administro base de datos para filtrar su contenido.</li>'+
+            '<li>Protego mis rutas para que el usuario se autentique y pueda empezar a pedir cosas al servidor.</li>'+
+            '</ul>'
+            ,
+
+
+          { width: '400px', height: 'auto' })
+    }
+
+</script>
 <script src="scripts/firebase.js"></script>	
     <script src="js/core/jquery.3.2.1.min.js"></script>
     <script src="js/core/popper.min.js"></script>
