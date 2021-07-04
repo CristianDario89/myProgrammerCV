@@ -112,6 +112,7 @@ justify-content:space-around;}
 .group{
 text-align: center;
 margin-top: 15px;
+
 }
 
 .pmodal{
@@ -133,4 +134,9 @@ margin-top: 15px;
 .btnpro{
   margin: auto;
 }
-  }
+
+.group{
+ margin-bottom: 30px;padding:10px;
+ box-shadow: 1px 1px 1px black, -1px -1px 1px black;
+}
+}

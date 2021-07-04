@@ -711,7 +711,7 @@
     </div>
 
 
-    <div class="wrappreguntas" >
+    <div class="wrappreguntas container" >
       <div class="group"  id="sobremi">
           <h3>Quieres saber mas de mis skills?</h3>
           <button onclick="popup8()">saber más</button>
@@ -720,7 +720,7 @@
     
       
       <div class="group">
-        <h3>Cómo llevo a cabo un proyecto?</h3>
+        <h3 id="sobremi2">Cómo llevo a cabo un proyecto?</h3>
         <button onclick="popup1()">saber más</button>
       </div>
   
@@ -922,7 +922,17 @@ location.href='https://cristiandario89.github.io/lamellialmacen/';
 </script>
 <script>   
 function popup1() {
-  popup('Title', 'This is the text of the popup.');
+  popup('Mi proceso de desarrollo', '<ul class="ulmodal"><li>Definir funcionalidades y caracteristicas de la app'+
+    '<ul class="ulmodal"><li>Para qué se usará?</li>'+
+     '<li>Cuáles son las necesidades funcionales del usuario?</li>'+
+     '<li>Cuál es el perfil de los usuarios?</li>'+
+     '<li>Cuáles son las necesidades funcionales del usuario?</li>'+
+      '</ul></li>'+
+            '<li>Analizo propuestas para que respondan a las necesidades del usuario de la informacion obtenida de la fase anterior.</li>'+
+            '<li>Programación de las especificacion de diseño de la interfaz, incluir funcionalidades para responder a las interacciones del usuario.</li>'+
+            '<li>El sitio web se ponen a prueba navegando entre sus diferentes apartados y menús en diferentes exploradores y dispositivos.</li>'+
+            '<li>Sitio web preparado para facilitar su mantenimiento y realizar futuras actualizaciones.</li>'+
+            '</ul>');
 }
 
 
@@ -940,8 +950,8 @@ function popup8() {
             '<li> Mis plataformas empiezan a interactuar con clientes y usuarios.</li>'+
             '</ul>'+
             '<p class="pmodal">He estado trabajando en sitios web monolíticos y SPA durante cinco años</p>'+
-          '<ul class="ulmodal"><li>Puedo programar y desarrollar softwares, webapps y sitios web SPA.</li>'+
-            '<li>Mis apps consumen datos de manera local o remota</li>'+
+          '<ul class="ulmodal"><li>Programo y desarrollo softwares, webapps y sitios web.</li>'+
+            '<li>Mis apps consumen datos de manera local o remota.</li>'+
             '<li>Diseño servidores con rutas programadas que responden a las peticiones de usuarios.</li>'+
             '<li>Administro base de datos para filtrar su contenido.</li>'+
             '<li>Protego mis rutas para que el usuario se autentique y pueda empezar a pedir cosas al servidor.</li>'+
