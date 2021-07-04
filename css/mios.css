@@ -107,12 +107,15 @@
 /*---------------*/
 .wrappreguntas{
   display:flex; flex-wrap: wrap;
-justify-content:space-around;}
+justify-content:space-around;
+border: 1px 1px black;}
 
 .group{
 text-align: center;
-margin-top: 15px;
-
+margin-top: 10px;
+margin-bottom: 20px;padding:10px 20px;
+box-shadow: 1px 1px 1px black, -1px -1px 1px black;
+width: 45%;
 }
 
 .pmodal{
@@ -120,7 +123,8 @@ margin-top: 15px;
 }
 .ulmodal{text-align: left;}
 
-.nav-item{border-right: 2px solid chartreuse;}
+figcaption .h4{font-weight: 600;text-shadow: 1px 1px green;
+padding:0 20px}
 /*--------------------------------------------*/
   @media screen and (max-width: 992px) {
     .wrapquotes{
@@ -134,9 +138,7 @@ margin-top: 15px;
 .btnpro{
   margin: auto;
 }
-
 .group{
- margin-bottom: 30px;padding:10px;
- box-shadow: 1px 1px 1px black, -1px -1px 1px black;
-}
+   width: 100%;margin-bottom:5px;
+  }
 }

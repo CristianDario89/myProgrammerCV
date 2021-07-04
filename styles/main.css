@@ -6888,7 +6888,7 @@ Created using IcoMoon - icomoon.io
 .gallery .cc-porfolio-image figure {
   position: relative;
   overflow: hidden;
-  text-align: center;
+  text-align: center; 
     border: 2px solid black;
 }
 
@@ -6925,7 +6925,7 @@ Created using IcoMoon - icomoon.io
 
 .gallery .cc-porfolio-image figure .h4,
 .gallery .cc-porfolio-image figure p {
-  margin: 0;
+  margin: 0; 
 }
 
 .gallery figure.cc-effect figcaption::before,
