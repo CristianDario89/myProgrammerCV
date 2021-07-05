@@ -351,7 +351,7 @@
     <div class="wrappreguntas container" >
       <div class="group"  id="sobremi">
           <h3>Quieres saber mas de mis skills?</h3>
-          <button class="btn btn-primary" onclick="popup8()">saber más</button>
+          <button class="btn btn-primary" onclick="popup3()">saber más</button>
           
       </div>
       <div class="group">
@@ -360,12 +360,12 @@
       </div>
   
       <div class="group">
-        <h3 id="sobremi2">Cómo desarrollo una app o sitio web?</h3>
-        <button class="btn btn-primary" onclick="">saber más</button>
+        <h3 id="sobremi3">Cómo desarrollo una app o sitio web?</h3>
+        <button class="btn btn-primary" onclick="popup2()">saber más</button>
       </div>
  
       <div class="group">
-        <h3 id="sobremi2">Mi 3 mejores tecnologías?</h3>
+        <h3 id="sobremi4">Mi 3 mejores tecnologías?</h3>
         <button class="btn btn-primary" onclick="">saber más</button>
       </div>
 
@@ -967,7 +967,7 @@ function popup1() {
 }
 
 
-function popup8() {
+function popup3() {
         popup('<p>En 3 años de estudios secundarios aprendí:</p>', 
           '<ul class="ulmodal"><li>Algoritmos y estructuras de datos</li>'+
             '<li>lenguajes de programación como java y c++</li>'+
@@ -992,6 +992,23 @@ function popup8() {
 
           { width: '400px', height: 'auto' })
     }
+    function popup2() {
+  popup('Asi programo una webapp',
+      '<ul class="ulmodal">'+
+            '<li>Creo y diseño la base de datos.</li>'+
+            '<li>Creo servidor http o consumo los servicios de uno ya creado para esperar las peticiones del cliente.</li>'+
+            '<li>Programo las rutas donde el cliente enviara sus peticiones.</li>'+
+
+            '<li>Maqueto la estructura básica de la web a nivel imagenes, textos osea a nivel de contenido</li>'+
+            '<li>Con CSS le otorgo estilos a cada etiqueta del sitio para que se va bonita para el usuario</li>'+
+            '<li>JS empieza a darle interacciuon a los objetos de la pagina y que respondan a ciertos eventos del usuario.</li>'+
+            
+            '<li>Defino los flujos de interaccion finales de usuario para ir realizaando las tareas del sitio como por ejemplo el inicio de sesion</li>'+
+            '<li>Se definen tipografías, colores, y jarquias de elementos de la web.</li>'+
+            
+            '<li>Mi app esta lista para actualizar base de datos y enviar FE al cliente</li>'+
+            '</ul>');
+}
 
 </script>
 <script src="scripts/firebase.js"></script>	
