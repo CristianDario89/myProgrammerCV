@@ -22,9 +22,7 @@
     <link href="css/tabs.css" rel="stylesheet">
     <link href="css/creativa-popup.css" rel="stylesheet">
     
-<script src="js/core/jquery.3.2.1.min.js"></script>
-    <script src="js/creativa-popup.js"></script>
-    
+    <script src="js/creativa-popup.js"></script> 
        <!-- Firestore -->
     <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
@@ -378,8 +376,8 @@
           <li><a href="#tab2">Angular</a></li>
           <li><a href="#tab3">Node</a></li> 
         </ul> <!-- END tabs-nav -->
-        <div id="tabs-content">
-          <div id="tab1" class="tab-content">
+        <div id="tabs-content2">
+          <div id="tab1" class="tab-content2">
             <h2>JavaScript</h2>
             <p>"Me maravilla usar JavaScript porque es un lenguaje tan sencillo y refinado con muchos propósitos. Me forme en JS cuando comencé a crear sitios web y más aún cuando descubrí que facilita la interacción con los visitantes. 
               <br><br>Me complace mucho JS para resolver problemas algorítmicos. Siento que es fácil de usar y brinda características atractivas.
@@ -391,11 +389,11 @@
               <br><br>Me atrevo a decir que tengo un gran conocimiento de Javascript fundamentado en mi experiencia personal.
               "</p>
           </div>
-          <div id="tab2" class="tab-content">
+          <div id="tab2" class="tab-content2">
             <h2>Dante Hicks</h2>
             <p>"My f racto were innocent victims when it was destroyed by the Rebels."</p>
           </div>
-          <div id="tab3" class="tab-content">
+          <div id="tab3" class="tab-content2">
             <h2>Randall Graves</h2>
             <p>"In oma d inadvertently drove men to deviant lifestyles."</p>
           </div>
@@ -983,21 +981,7 @@
 
   
 <script>
-  // Show the first tab and hide the rest
-$('#tabs-nav li:first-child').addClass('active');
-$('.tab-content').hide();
-$('.tab-content:first').show();
-
-// Click function
-$('#tabs-nav li').click(function(){
-$('#tabs-nav li').removeClass('active');
-$(this).addClass('active');
-$('.tab-content').hide();
-
-var activeTab = $(this).find('a').attr('href');
-$(activeTab).fadeIn();
-return false;
-});
+ 
   </script>
   
 
@@ -1066,6 +1050,7 @@ function popup3() {
 }
 
 </script>
+<script src="js/core/jquery.3.2.1.min.js"></script>
 <script src="scripts/firebase.js"></script>	
 <script src="js/core/popper.min.js"></script>
 <script src="js/core/bootstrap.min.js"></script>

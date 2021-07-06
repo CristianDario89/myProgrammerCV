@@ -15,7 +15,21 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
  */
-
+ // Show the first tab and hide the rest
+ $('#tabs-nav li:first-child').addClass('active');
+ $('.tab-content2').hide();
+ $('.tab-content2:first').show();
+ 
+ // Click function
+ $('#tabs-nav li').click(function(){
+ $('#tabs-nav li').removeClass('active');
+ $(this).addClass('active');
+ $('.tab-content2').hide();
+ 
+ var activeTab = $(this).find('a').attr('href');
+ $(activeTab).fadeIn();
+ return false;
+ });
 var transparent = true;
 
 var transparentDemo = true;
