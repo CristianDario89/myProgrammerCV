@@ -175,7 +175,7 @@ padding:0 20px}
 /*Sentence*/
 .sentence{
   color: white;
-  font-size: 20px; 
+  font-size: 15px; 
  
 }
 
@@ -406,6 +406,6 @@ display:flex;flex-direction: column;
 } 
  .sentence{font-size: 15px;}
 
- .s3{display: none;}
- .s2{position: relative;bottom:15px;}
+ .s2{display: none;}
+ .s3{position: relative;bottom:18px;}
 }
