@@ -404,7 +404,8 @@ display:flex;flex-direction: column;
  align-items: flex-start;
 
 } 
- .sentence{font-size: 18px;}
+ .sentence{font-size: 15px;}
 
  .s3{display: none;}
+ .s2{position: relative;bottom:15px;}
 }
