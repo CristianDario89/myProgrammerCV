@@ -2920,7 +2920,7 @@ p {
 
 .category {
   text-transform: uppercase;
-   font-family: 'Times New Roman', Times, serif;
+   letter-spacing: 1px; 
   color: #9A9A9A;
 }
 

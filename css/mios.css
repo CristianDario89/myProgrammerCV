@@ -194,10 +194,10 @@ text-indent: 8px;
 animation: topToBottom 12.5s linear infinite 0s;
 -ms-animation: topToBottom 12.5s linear infinite 0s;
 -webkit-animation: topToBottom 12.5s linear infinite 0s;
-color: #00abe9;
+color: #378C3F;
 opacity: 0;
 overflow: hidden;
-position: absolute;
+position: absolute;font-weight: 600;
 }
 .slidingVertical span:nth-child(2){
 animation-delay: 2.5s;
@@ -258,8 +258,8 @@ text-indent: 8px;
 animation: leftToRight 12.5s linear infinite 0s;
 -ms-animation: leftToRight 12.5s linear infinite 0s;
 -webkit-animation: leftToRight 12.5s linear infinite 0s;
-color: #00abe9;
-opacity: 0;
+color: #378C3F;
+opacity: 0;font-weight: 600;
 overflow: hidden;
 position: absolute;
 }
@@ -322,8 +322,8 @@ text-indent: 8px;
 animation: fadeEffect 12.5s linear infinite 0s;
 -ms-animation: fadeEffect 12.5s linear infinite 0s;
 -webkit-animation: fadeEffect 12.5s linear infinite 0s;
-color: #00abe9;
-opacity: 0;
+color: #378C3F;
+opacity: 0;font-weight: 600;
 overflow: hidden;
 position: absolute;
 }
