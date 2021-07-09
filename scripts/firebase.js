@@ -1,9 +1,8 @@
 
 firebase.initializeApp({
-  
-     apiKey: "AIzaSyDas9f_JWg4cbwC6oHwnEdTO3nXTj8UTfw",
-    authDomain: "micv-1f9c5.firebaseapp.com",
-    projectId: "micv-1f9c5",
+    apiKey: "AIzaSyC0tRCgA5qHCcg6VAQsvPTX8DhxbiwbyB0",
+    authDomain: "misitiocont.firebaseapp.com",
+    projectId: "misitiocont"
 });
 var db = firebase.firestore();
    
@@ -16,7 +15,7 @@ function guardar(){
       var asunto = document.getElementById('asunto').value;
     var mensaje = document.getElementById('mensaje').value;
     
-    db.collection("pedidos").add({
+    db.collection("contactoCV").add({
          email: email,
           nombre: nombre,
           asunto: asunto,
