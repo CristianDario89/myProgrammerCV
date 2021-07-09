@@ -4738,7 +4738,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .footer {
-  padding: 24px 0;
+  padding: 2px 0;
+  background-color: #378C3F;color:white;
 }
 
 .footer.footer-default {
@@ -6754,6 +6755,10 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding:20px 0;
+    
+  }
   .image-container.image-right {
     top: 80px;
     margin-left: -100px;
@@ -6766,7 +6771,11 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (max-width: 768px) {
-  .image-container.image-left {
+  .footer {
+    padding:18px 0;
+    
+  }
+   .image-container.image-left {
     margin-bottom: 220px;
   }
   .image-container.image-left p.blockquote {
