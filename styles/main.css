@@ -3002,14 +3002,17 @@ body {
   background: #FFFFFF;
 }
 
-.moverse{margin-right: 20px; 
-position: relative; top:15px; }
+.moverse{  
+position: relative;   
+background-color: #378C3F;
+box-shadow: 1px 1px 4px black,-1px -1px 4px black;
+padding:3px;}
 
 .moverse a{text-decoration: none; color:black;font-weight: 600;
 }
 .correte{width: 150px;margin-right: 15px;}
 
-.correte img{height:90px; box-shadow: 1px 1px 4px black,-1px -1px 4px black;;}
+.correte img{height:90px; box-shadow: 1px 1px 2px black,-1px -1px 2px black}
 
 /* Animations */
 .nav-pills .nav-link,
