@@ -400,9 +400,11 @@ animation-delay: 10s;
   }
 }
 /*-------------------------------------------*/
-.specialul{
-  width:900px;
-  }
+ 
+
+  .specialul{text-align: left; height: 400px;
+    width:900px;
+    overflow-y: auto;}
 
 .specialul li img{width: 50%;height: 100%; }
 .specialul li {
