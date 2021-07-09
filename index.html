@@ -392,8 +392,8 @@
       </div>
  
       <div class="group">
-        <h3 id="sobremi4">Que resultados generan mis sitios?</h3>
-        <button class="btn btn-primary" onclick="">saber más</button>
+        <h3 id="sobremi4">Como mi frontend se comunica con el backend?</h3>
+        <button class="btn btn-primary" onclick="popup4()">saber más</button>
       </div>
 
  
@@ -425,16 +425,18 @@
           <h2>Angular</h2>
           <p>"Aprendí a construir aplicaciones dinámicas de una sola página (SPA).
 
-            <br><br>Noté facilidad para crear contenido dinámico a trávez del data-binding.
+            <br><br>Noté facilidad para crear contenido dinámico a trávez del data-binding. Ahora mis componentes o elementos pueden comunicarse muy simplemente.
             
             <br><br>Aprendí como usar las directivas en elementos del DOM para asignar un comportamiento especial.
             
-            <br><br>Logré consumir servicios para la comunicación con la estructura de back-end a través de HTTP, empezando a implementar el enrutamiento.
+            <br><br>Ahora puedo consumir servicios para la comunicación con la estructura de back-end a través de HTTP
+            implementando el enrutamiento junto con el patrón de diseño basado en la inyección de dependencias.<!--avanzado sistema de modularidad-->
+            <br>Adquirí conocimientos muy practicos al usar un almacén de datos y, cuando se modifica ese almacén, recibir automáticamente sus cambios, 
+            sin que tengamos que programar a mano ese tránsito de la información.  
+           
+              <br><br>Recordé viejos momento de Java con TypeScript, lenguaje de programación moderno y orientado a objetos que proporciona una mejor estructura para gestionar grandes proyectos web.
             
-            <br><br>Entendí su avanzado sistema de modularidad, junto con el patrón de diseño basado en la Inyección de Dependencias. 
-            
-            <br><br>Recordé viejos momento de Java con TypeScript, lenguaje de programación moderno y orientado a objetos que proporciona una mejor estructura para gestionar grandes proyectos web.
-            
+
             <br><br>Comprendí que concede un mejor rendimiento a mayor escala."</p>
         </div>
         <div id="tab3" class="tab-content2">
@@ -855,44 +857,7 @@
                               <button class="btn btn-primary rotacion" type="submit" onclick="guardar()">Enviar</button>
                             </div>
                           </div>
-                      
-                    <!--  <div class="row">
-                      <div class="col-lg-4">
-                            <div class="form-group ">
-                  <label for="name" class="sr-only">Direction</label>
-                  <input id="dire" class="form-control" placeholder="Dirección" type="text">
-                  </div>
-                      </div>
-                      <div class="col-lg-4">
-                            <div class="form-group ">
-                  <label for="email" class="sr-only">Email</label>
-                  <input id="email" class="form-control" placeholder="Nro de celular" type="number">
-                </div>
-                      </div>
-                      <div class="col-lg-4"><div class="form-group">
-                  <label for="occation" class="sr-only">Occation</label>
-                  <select class="form-control" id="entrega" >
-                    <option>Seleccionar tipo de entrega</option>
-                    <option>Delivery</option>
-                    <option>Retiro en el local</option>
-                  </select>
-                </div></div>
-                      <div class="col-lg-4">	<div class="form-group">
-                  <label for="occation" class="sr-only">Occation</label>
-                  <select class="form-control" id="pago">
-                    <option>Forma de pago</option>
-                    <option>Efectivo</option>
-                    <option>Mercado pago</option>
-                  </select>
-                </div></div>
-                  </div>
-                  
-                <div class="form-group ">
-                  <input class="btn btn-primary" onclick="guardar()" value="Realizar pedido" type="submit">
-                </div>-->   
-                        
-                        
-                      </div>
+                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="card-body">
@@ -994,7 +959,7 @@ function popup3() {
     }
     function popup2() {
   popup('Asi programo una webapp',
-      '<ul class="ulmodal">'+
+      '<ul class="ulmodal sepciall">'+
             '<li>Creo y diseño la base de datos.</li>'+
             '<li>Creo servidor http o consumo los servicios de uno ya creado para esperar las peticiones del cliente.</li>'+
             '<li>Programo las rutas donde el cliente enviara sus peticiones.</li>'+
@@ -1010,6 +975,21 @@ function popup3() {
             '</ul>');
 }
 
+function popup4() {
+        popup('<p class="p-modal-angular">Proyecto Angular</p>', 
+          '<ul class="ulmodal specialul">'+
+            '<li class="before1"><img src="../img/modal1/s11.png"></li>'+
+            '<li class="before2"><img src="../img/modal1/s2.png"></li>'+
+            '<li class="before3"><img src="../img/modal1/s3.png"></li>'+
+            '<li class="before4"><img src="../img/modal1/s4.png"></li>'+
+            '<li class="before5"><img src="../img/modal1/s5.png"></li>'+
+            '<li class="before6"><img src="../img/modal1/s6.png"></li>'+
+            '<li class="before7"><img src="../img/modal1/s9.png"></li>'+
+            '<li class="before8"><img src="../img/modal1/sf2.png"></li>'+
+            '</ul>'
+            ,
+          { width: '400px', height: 'auto' })
+    }
 </script>
 <script src="js/core/jquery.3.2.1.min.js"></script>
 <script src="scripts/firebase.js"></script>	

@@ -119,9 +119,12 @@ width: 45%;
 }
 
 .pmodal{
-  font-weight: 600;
+  font-weight: 600;  
 }
-.ulmodal{text-align: left;}
+.ulmodal{text-align: left; height: 400px;
+  width: 100%;
+  overflow-y: auto;}
+ 
 
 figcaption .h4{font-weight: 600;text-shadow: 1px 1px green;
 padding:0 20px}
@@ -396,8 +399,53 @@ animation-delay: 10s;
     transform: rotate(0deg);
   }
 }
+/*-------------------------------------------*/
+.specialul{
+  width:900px;
+  }
+
+.specialul li img{width: 50%;height: 100%; }
+.specialul li {
+  font-size: 23px;line-height: 50px;
+margin-bottom: 20px;}
+
+.specialul .before7{
+  list-style:none;
+  }
+
+.specialul .before1::before{
+  content:'Importaciones de Firebase service y modelo de datos.'; 
+    display:block;
+  }
+ 
+  .specialul .before2::before{
+    content:'Servicio FB se carga al constructor.';
+    display:block;
+    }
+    .specialul .before3::before{
+      content:'Creamos metodos para ser usados en donde sea.';
+      display:block;
+      }
+      .specialul .before4::before{
+        content:'Importamos servicio en Componente y lo inyectamos en su constructor.';
+        display:block;
+        }
+        .specialul .before5::before{
+          content:'Accedemos a método y propiedades de nuestro servicio inyectado.';
+          display:block;
+          }
+          .specialul .before6::before{
+            content:'el home.html pinta la información.';
+            display:block;
+            }
+            .specialul .before8::before{
+              content:'Base de datos remota a consumir.';
+              display:block;
+              }
+
+.p-modal-angular{font-size: 28px;}
 /*--------------------------------------------*/
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .wrapquotes{
         display: flex;
       flex-direction: column;
@@ -423,4 +471,13 @@ display:flex;flex-direction: column;
 
  .s2{display: none;}
  .s3{position: relative;bottom:18px;}
+ /*---------------------*/
+ .specialul li img{width: 100%; }
+
+ .specialul li {font-size: 14px;line-height: 20px;margin-bottom: 10px;}
+
+.specialul{ width:100%;}
+
+
+.p-modal-angular{font-size: 22px;line-height: 22px;}
 }
