@@ -117,15 +117,6 @@ margin-bottom: 20px;padding:10px 20px;
 box-shadow: 1px 1px 1px black, -1px -1px 1px black;
 width: 45%;
 }
-
-.pmodal{
-  font-weight: 600;  
-}
-.ulmodal{text-align: left; height: 400px;
-  width: 100%;
-  }
- 
-
 figcaption .h4{font-weight: 600;text-shadow: 1px 1px green;
 padding:0 20px}
 
@@ -401,6 +392,20 @@ animation-delay: 10s;
 }
 /*-------------------------------------------*/
  
+/*---------mios---------*/
+.pmodal{
+  font-weight: 600;  
+}
+.ulmodal{text-align: left; height:100%;
+  width: 100%;
+  }
+
+  .spanmodal{color:red;font-style: italic;font-size: 28px;}
+
+  
+.p-modal-angular{font-size: 22px;}
+ /*-----------------*/
+
 
   .specialul{text-align: left; height: 400px;
     width:900px;
@@ -445,7 +450,6 @@ margin-bottom: 20px;}
               display:block;
               }
 
-.p-modal-angular{font-size: 28px;}
 /*--------------------------------------------*/
 @media screen and (max-width: 992px) {
     .wrapquotes{
@@ -481,5 +485,5 @@ display:flex;flex-direction: column;
 .specialul{ width:100%;}
 
 
-.p-modal-angular{font-size: 22px;line-height: 22px;}
+.p-modal-angular{font-size: 18px;line-height: 26px;}
 }
