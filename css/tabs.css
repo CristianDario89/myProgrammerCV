@@ -1,7 +1,7 @@
   /* Tabs */
   .tabs {
     width: 600px;margin: 0 auto;
-    background-color: #378C3F;
+    background-color: #292b2c;
     border-radius: 5px 5px 5px 5px;
   }
   ul#tabs-nav {
@@ -30,7 +30,7 @@
   }
   .tab-content2 {
     padding: 10px;
-    border: 5px solid #378C3F;
+    border: 5px solid #292b2c;
     background-color: #FFF;
   }
   

@@ -19,7 +19,7 @@ function popup3() {
             '<li>lenguajes de programación como java y c++</li>'+
             '<li>hacer consultas de bases de datos usando sql </li>'+
             '</ul>'+
-            '<p class="pmodal">Años después me vuelvo bueno en:</p>'+
+            '<p class="pmodal">Años después ame vuelvo bueno en:</p>'+
           '<ul class="ulmodal"><li> Html CSS y JS.</li>'+
             '<li>Comencé con jquery básico, DOM y otras cosas en las etapas iniciales.</li>'+
             '<li>Utilizo Media Queries para diseño responsivo.</li>'+
@@ -57,7 +57,7 @@ function popup3() {
 }
 
 function popup4() {
-        popup('<p class="p-modal-angular">Proyecto Angular<br><span class="spanmodal">Recuperación de Posts FB</span></p>', 
+        popup('<p class="p-modal-angular">Proyecto<span class="spanmodal2"> Angular - FireBase</span><br><span class="spanmodal">Recuperación de Posts<br></span></p>', 
           '<ul class="specialul">'+
             '<li class="before1"><img src="../img/modal1/s11.png"></li>'+
             '<li class="before2"><img src="../img/modal1/s2.png"></li>'+

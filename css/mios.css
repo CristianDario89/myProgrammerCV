@@ -1,12 +1,13 @@
 .wrapquotes{
     display: grid;
     grid-template-columns:45% 10% 45%;
+  
 }
 .quote-box{
   transform: scale(0.75);
 }
 .quote {
-    background-color: #6b936a;
+    background-color: black;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     color: #fff;
@@ -32,7 +33,7 @@
   }
   
   blockquote::after {
-    border-color: transparent #6b936a transparent transparent;
+    border-color: transparent black transparent transparent;
     border-image: none;
     border-style: solid;
      
@@ -104,13 +105,15 @@
 .wrappreguntas{
   display:flex; flex-wrap: wrap;
 justify-content:space-around;
-border: 1px 1px black;}
+padding-top:50px; }
 
 .group{
 text-align: center;
  padding:3px 20px; 
 width: 25%;
  border: 3px solid white;
+
+  transform: scale(0.8);
 }
 .group h3{
   padding-top: 5px;
@@ -405,10 +408,14 @@ animation-delay: 10s;
   width: 100%;
   }
 
-  .spanmodal{color:red;font-style: italic;font-size: 28px;}
+.spanmodal{color:red;font-style: italic;font-size: 26px;} 
+.spanmodal2 {color:grey;font-size: 18px;line-height: 22px;} 
+.p-modal-angular{color:black;font-size: 12px;line-height: 22px;} 
 
-  
-.p-modal-angular{font-size: 22px;}
+.span-certificados{
+  font-size: 16px;
+  color:grey; 
+}
  /*-----------------*/
 
 
@@ -435,15 +442,15 @@ margin-bottom: 20px;}
     display:block;
     }
     .specialul .before3::before{
-      content:'Creamos metodos para ser usados en donde sea.';
+      content:'Creo metodos para ser usados en donde sea.';
       display:block;
       }
       .specialul .before4::before{
-        content:'Importamos servicio en Componente y lo inyectamos en su constructor.';
+        content:'Importo servicio en componente Home para inyectarlo en su constructor.';
         display:block;
         }
         .specialul .before5::before{
-          content:'Accedemos a método y propiedades de nuestro servicio inyectado.';
+          content:'Acceso total a métodos y propiedades de nuestro servicio inyectado para obtener posts de firebase database.';
           display:block;
           }
           .specialul .before6::before{
@@ -490,5 +497,4 @@ margin-bottom: 20px;}
 .specialul{ width:100%;}
 
 
-.p-modal-angular{font-size: 18px;line-height: 26px;}
 }
