@@ -81,8 +81,7 @@
 }
 
 .btnpro a {
-   
-  margin:  1px auto;
+    margin:  1px auto;
   text-decoration: none;
   color: lighten(#222, 10%);
   font-family: "Source Code Pro";
@@ -121,8 +120,9 @@ width: 25%;
   line-height:31px;
   }
 
-  .group button{ 
-    }
+
+  .href-modal{color:red;}
+  .href-modal:hover{color:green;}
 /*------FIN MIOS---------*/
 
 figcaption .h4{font-weight: 600;text-shadow: 1px 1px green;
@@ -178,15 +178,8 @@ padding:0 20px}
 .sentence{
   color: white;
   font-size: 15px;  
-} 
-/*Wrapper*/
-.wrapperfrases{
-  align-items:flex-end;
-  display:flex;flex-direction: column;
- padding-right: 180px;
-   padding-top: 140px;
-}
-
+ font-family: 'Courier New', Courier, monospace;
+}  
 /*Vertical Sliding*/
 .slidingVertical{
 display: inline;
@@ -478,17 +471,17 @@ margin-bottom: 20px;}
 .group{
    width: 100%;margin-bottom:5px;
   }
-  
+  .group h3{
+    font-family: 'Courier New', Courier, monospace; 
+   }
  /*Wrapper*/
 .wrapperfrases{  
- position: relative; bottom: 105px;left:20px;
- 
-
+ position: relative;  
 } 
  .sentence{font-size: 15px;}
 
  .s2{display: none;}
- .s3{position: relative;bottom:18px;left:8px;}
+ .s3{position: relative;}
  /*---------------------*/
  .specialul li img{width: 100%; }
 

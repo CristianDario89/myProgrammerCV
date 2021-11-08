@@ -3372,11 +3372,12 @@ tbody.collapse.show {
 }
 
 .nav-tabs .nav-item {
-    margin-bottom: -1px
+    margin-bottom: -1px;
+   
 }
 
 .nav-tabs .nav-link {
-    border: 1px solid transparent;
+    border: 1px solid transparent;  
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem
 }

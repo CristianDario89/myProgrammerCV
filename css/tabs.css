@@ -18,7 +18,7 @@
     border-radius: 5px 5px 5px 5px;
     /*border: 1px solid #d5d5de;
     border-bottom: none;*/
-    cursor: pointer;
+    cursor: pointer;font-family: 'Courier New', Courier, monospace; 
   }
   ul#tabs-nav li:hover,
   ul#tabs-nav li.active {
@@ -33,7 +33,9 @@
     border: 5px solid #292b2c;
     background-color: #FFF;
   }
-  
+  .tab-content2 h2{
+    font-family: 'Courier New', Courier, monospace; 
+  }
   @media screen and (max-width: 992px) {
     .tabs {
         width: 100%;
