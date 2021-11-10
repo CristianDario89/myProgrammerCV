@@ -2892,8 +2892,7 @@ p {
 }
 
 .description,
-.card-description,
-.footer-big p {
+.card-description  {
   color: #9A9A9A;
   font-weight: 300;
 }
@@ -2980,19 +2979,19 @@ body {
   position: relative;
   background: #FFFFFF;
 }
-
-.moverse{  
-position: relative;    
  
-padding:3px;}
 
-.moverse a{
+.nav-item p a{
   text-decoration: none; font-family: 'Courier New', Courier, monospace;
-  color:black;font-weight: 600;}
+  color:white; 
+  padding:5px;
+  background-color: black;
+  border-right: 3px solid white;
+}
 
-.correte{width: 170px; }
+  
 
-.correte img{height:90px;  }
+.nav-item img{height:90px;  }
 
 /* Animations */
 .nav-pills .nav-link,
@@ -6313,6 +6312,7 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (min-width: 992px) {
+  
   .burger-menu .navbar-collapse {
     position: fixed;
     display: block;
@@ -6754,6 +6754,7 @@ Created using IcoMoon - icomoon.io
     padding:20px 0;
     
   }
+  
   .image-container.image-right {
     top: 80px;
     margin-left: -100px;
@@ -6849,8 +6850,7 @@ Created using IcoMoon - icomoon.io
   .alert .alert-icon {
     margin-top: 10px;
   }
-  
-  .correte{width: 130px; }
+   
 }
 
 @media screen and (min-width: 1200px) {
@@ -7260,6 +7260,7 @@ Created using IcoMoon - icomoon.io
   .cc-contact-information .cc-contact {
     padding: 30px 0px 30px 0px;
   }
+  
 }
 
 /* Footer */
