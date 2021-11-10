@@ -1,29 +1,6 @@
-/*!
 
- =========================================================
- * Now-ui-kit - v1.1.0
- =========================================================
-
- * Product Page: http://www.creative-tim.com/product/now-ui-kit
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-/*     brand Colors              */
-/*      light colors         */
-/* ========================================================================
- * bootstrap-switch - v3.3.2
- * http://www.bootstrap-switch.org
- * ========================================================================
- * Copyright 2012-2013 Mattia Larentis
- * http://www.apache.org/licenses/LICENSE-2.0
- */
+ @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
+  
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -2547,7 +2524,8 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container {
-  position: relative;
+  position: relative; 
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .progress-container + .progress-container,
@@ -2582,6 +2560,7 @@ textarea.form-control:focus, textarea.form-control:active {
   right: 0;
   color: #888;
   font-size: 0.8571em;
+   
 }
 
 .progress-container.progress-neutral .progress {
@@ -2871,6 +2850,7 @@ h4 + .category,
 h4.title + .category, .h4 + .category,
 .h4.title + .category {
   margin-top: -10px;
+ 
 }
 
 h5, .h5 {
@@ -2991,10 +2971,7 @@ p {
   color: rgba(255, 255, 255, 0.8);
 }
 
-body {
-  color: #2c2c2c;
-  font-size: 14px;
-  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+body { 
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -3009,8 +2986,10 @@ position: relative;
  
 padding:3px;}
 
-.moverse a{text-decoration: none; color:black;font-weight: 600;
-}
+.moverse a{
+  text-decoration: none; font-family: 'Courier New', Courier, monospace;
+  color:black;font-weight: 600;}
+
 .correte{width: 150px; }
 
 .correte img{height:90px;  }
@@ -4654,8 +4633,14 @@ Created using IcoMoon - icomoon.io
 
 .card .card-body {
   min-height: 190px;
+  font-family: 'Courier New', Courier, monospace;
 }
-
+.card .card-body .h5 {
+  font-weight: 600;
+}
+.href-credencial{
+  color:green;
+}
 .card[data-background-color="orange"] {
   background-color: #292b2c;
 }
@@ -4748,6 +4733,7 @@ Created using IcoMoon - icomoon.io
 .footer {
   padding: 2px 0;
  color:white;
+ font-family: 'Courier New', Courier, monospace;
 }
 
 .footer.footer-default {
@@ -7043,7 +7029,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .gallery figure.cc-effect:hover figcaption:before {
-  background: rgba(27, 23, 23, 0.5);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .gallery figure.cc-effect:hover .h4,
