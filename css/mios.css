@@ -111,7 +111,7 @@ text-align: center;
  padding:3px 20px; 
 width: 25%;
  border: 3px solid white;
-
+font-family: 'Courier New', Courier, monospace;
   transform: scale(0.8);
 }
 .group h3{
@@ -476,14 +476,14 @@ margin-bottom: 20px;}
 .group{
    width: 100%;margin-bottom:5px;
   }
-  .group h3{
-    font-family: 'Courier New', Courier, monospace; 
-   }
+ 
  /*Wrapper*/
 .wrapperfrases{  
  position: relative;  
 } 
- .sentence{font-size: 15px;}
+ .sentence{font-size: 15px;
+padding-right: 30px;
+}
 
  .s2{display: none;}
  .s3{position: relative;}

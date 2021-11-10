@@ -2990,7 +2990,7 @@ padding:3px;}
   text-decoration: none; font-family: 'Courier New', Courier, monospace;
   color:black;font-weight: 600;}
 
-.correte{width: 150px; }
+.correte{width: 170px; }
 
 .correte img{height:90px;  }
 
@@ -3335,10 +3335,11 @@ padding:3px;}
 
 .navbar .navbar-brand {
   text-transform: uppercase;
-  font-size: 0.8571em;
+  font-size:24px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   line-height: 1.625rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .navbar .navbar-toggler {
@@ -6848,6 +6849,8 @@ Created using IcoMoon - icomoon.io
   .alert .alert-icon {
     margin-top: 10px;
   }
+  
+  .correte{width: 130px; }
 }
 
 @media screen and (min-width: 1200px) {
@@ -6882,6 +6885,7 @@ Created using IcoMoon - icomoon.io
   .index-page .category-absolute {
     top: 90vh;
   }
+
 }
 
 @media screen and (max-width: 580px) {
