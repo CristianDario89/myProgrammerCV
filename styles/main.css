@@ -6902,6 +6902,7 @@ Created using IcoMoon - icomoon.io
 }
 
 /* Images Gallery Style*/
+ 
 .gallery .cc-porfolio-image figure {
   position: relative;
   overflow: hidden;
@@ -7199,7 +7200,7 @@ Created using IcoMoon - icomoon.io
 
 /* Education Style */
 .cc-education .h5 {
-  margin-bottom: 0;
+  margin-bottom: 0; 
 }
 
 .cc-education .cc-education-header {

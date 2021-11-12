@@ -1,6 +1,31 @@
+.name-mio a{
+  border: 0px;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(to right, rgb(187, 210, 243), rgb(72, 88, 92));
+  border-image-slice: 1;
+  color: white;
+  margin: auto;
+  text-decoration: none;
+  font-size: 24px;
+}
+.name-mio {
+  display: flex;
+}
+
+.linea-mia{
+  border: 0px;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(to right, rgb(10, 156, 71), rgb(72, 88, 92));
+  border-image-slice: 1;
+  color: white;
+  margin: auto;
+  text-decoration: none;
+   
+}
+/***********************/
 .wrapquotes{
     display: grid;
-    grid-template-columns:45% 10% 45%;
+    grid-template-columns:65% 35%;
   
 }
 .quote-box{
@@ -256,7 +281,7 @@ text-indent: 8px;
 animation: leftToRight 12.5s linear infinite 0s;
 -ms-animation: leftToRight 12.5s linear infinite 0s;
 -webkit-animation: leftToRight 12.5s linear infinite 0s;
-color: #378C3F;
+color: rgba(10, 156, 71);
 opacity: 0;font-weight: 600;
 overflow: hidden;
 position: absolute;
